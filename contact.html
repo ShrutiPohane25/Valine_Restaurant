@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image:url("restro.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .contact-container {
+            background-color:rgba(122, 126, 126, 0.939);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        footer {
+            color: #0e0e0e;
+            text-align:center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+    <h2><u>Contact Us</u></h2>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:info@restaurant.com">valine@restaurant.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    </div>
+    <form action="#">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message">
+    </form>
+    <nav>
+        <a href="index.html"><u>Home</u></a>
+    </nav>
+</div>
+<footer>
+    <p><strong>Address:</strong>&nbsp;Road no. 12, Clock Tower Area, Oppo. to NewTimes Building, 440011</p>
+    <p>Contact: <a href="tel:+1234567890">+1 (234) 567-890</a> or Email us: <a href="mailto:info@restaurant.com">valine@restaurant.com</a></p>
+</footer>
+</body>
+</html>
